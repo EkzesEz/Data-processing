@@ -2,8 +2,8 @@ import pandas as pd
 import math
 
 
-CONST_ATTACHMENT = 'C:/Users/Professional/Desktop/3 семестр/Метрология и измерительная техника/Приложение.xlsx'
-CONST_SYS_ERR_PATH = 'C:/Users/Professional/Desktop/3 семестр/Метрология и измерительная техника/Систематическая погрешность.xlsx'
+CONST_ATTACHMENT = 'application.xlsx'
+CONST_SYS_ERR_PATH = 'systematic error.xlsx'
 
 CONST_TABULAR_DATA = pd.read_excel(CONST_ATTACHMENT)
 CONST_SYS_ERR_DATA = pd.read_excel(CONST_SYS_ERR_PATH)
